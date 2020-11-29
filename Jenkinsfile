@@ -15,7 +15,7 @@ pipeline {
 
     stage('Run Postman') {
       steps {
-        bat 'newman run https://www.getpostman.com/collections/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65-JsLv'
+        bat 'C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Roaming\\npm\\node_modules\\newman\\bin\\newman run https://www.getpostman.com/collections/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65-JsLv'
       }
     }
 
